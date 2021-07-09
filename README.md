@@ -1,2 +1,2 @@
-# Shreyash-Store
-this is my store
+# Shreyash Store
+ this is my store

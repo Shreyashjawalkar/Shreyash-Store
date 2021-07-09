@@ -1,0 +1,361 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shreyash Store</title>
+  <link rel="stylesheet" href="redstore.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="img/logo.png" width="125px">
+        </div>
+        <nav>
+          <ul id="menuitems">
+            <li><a href="second_website.html">Home</a></li>
+            <li><a href="second_page.html">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="shopping-cart.html"><img src="img/cart.png" width="30px" height="30px"></a>
+        <img src="img/menu.png" class="menu-icon"
+        onclick="menutoggle()">
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <h1>Give Your Life <br> A New Style</h1>
+          <p>Success Isn't always about greatness . It's about hardwork and consistency </p>
+          <a href="" class="btn">Explore Now &#x279D;</a>
+        </div>
+        <div class="col-2">
+           <img src="img/image1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------FEATURED CATEGORY------------------->
+  <div class="category">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <img src="img/category-1.jpg" alt="">
+        </div>
+        <div class="col-3">
+          <img src="img/category-2.jpg" alt="">
+        </div>
+        <div class="col-3">
+          <img src="img/category-3.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------FEATURED PRODUCTS------------------>
+
+  <div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <a href="single-product.html"><img src="img/product-1.jpg"></a>
+        <h4>Red Printed T-shirt</h4>
+        <div class="ratings">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>Rs. 300</p>
+      </div>
+      <div class="col-4">
+        <img src="img/product-2.jpg">
+        <h4>Sparx Shoes</h4>
+        <div class="ratings">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>Rs.1300</p>
+      </div>
+      <div class="col-4">
+        <img src="img/product-3.jpg">
+        <h4>Denim Jeans</h4>
+        <div class="ratings">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>Rs. 700</p>
+      </div>
+      <div class="col-4">
+        <img src="img/product-4.jpg">
+        <h4>Blue Printed T-shirt</h4>
+        <div class="ratings">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>Rs. 500</p>
+      </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="img/product-5.jpg">
+        <h4>Grey Shoes</h4>
+        <div class="ratings">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>Rs.999</p>
+      </div>
+      <div class="col-4">
+        <img src="img/product-6.jpg">
+        <h4>Black T-Shirt</h4>
+        <div class="ratings">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>Rs.499</p>
+      </div>
+      <div class="col-4">
+        <img src="img/product-7.jpg">
+        <h4>HRX Socks</h4>
+        <div class="ratings">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>Rs.200</p>
+      </div>
+      <div class="col-4">
+        <img src="img/product-8.jpg">
+        <h4>Black Classic Watch with Round Dial</h4>
+        <div class="ratings">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>Rs.1800</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <img src="img/product-9.jpg">
+        <h4>Classy Black Watch</h4>
+        <div class="ratings">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>Rs.599</p>
+      </div>
+      <div class="col-4">
+        <img src="img/product-10.jpg">
+        <h4>Black Shoes</h4>
+        <div class="ratings">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>Rs.799</p>
+      </div>
+      <div class="col-4">
+        <img src="img/product-11.jpg">
+        <h4>Grey Ankle Shoes</h4>
+        <div class="ratings">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>Rs.899</p>
+      </div>
+      <div class="col-4">
+        <img src="img/product-12.jpg">
+        <h4>Black Jogger</h4>
+        <div class="ratings">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>Rs.1299</p>
+      </div>
+    </div>
+  </div>
+ <!------------OFFER--------------->
+ <div class="offer">
+   <div class="small-container">
+     <div class="row">
+       <div class="col-2">
+         <img src="img/exclusive.png" class="offer-img">
+       </div>
+       <div class="col-2">
+         <p>EXCLUSIVELY AVAILABLE HERE</p>
+         <h1>Smart Band 4</h1>
+         <small>
+          The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3) AMOLED color full-touch display with adjustable brightness, so everything is clear as can be. Compatible with Android 4.4 or later/iOS 9.0 or later.
+         </small>
+         <a href="" class="btn">Buy Now &#8594;</a>
+       </div>
+     </div>
+   </div>
+ </div> 
+ <!---------------TESTIMONIAL SECTION---------------->
+
+ <div class="testimonials">
+   <div class="small-container">
+     <div class="row">
+       <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+         <p>Our main aim is to provide good quality of content to You.
+         </p>
+         <div class="ratings">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <img src="img/user-1.png" alt="">
+        <h3>Bella Smith</h3>
+       </div>
+       <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+         <p>Our main aim is to provide good quality of content to You.
+         </p>
+         <div class="ratings">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <img src="img/user-2.png" alt="">
+        <h3>Mike Tyson</h3>
+       </div>
+       <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+         <p>Our main aim is to provide good quality of content to You.
+         </p>
+         <div class="ratings">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <img src="img/user-3.png" alt="">
+        <h3>Georgia Bidden</h3>
+       </div>
+     </div>
+   </div>
+ </div>
+ <!----------------BRANDS----------------->
+ <div class="brands">
+   <div class="small-container">
+     <div class="row">
+       <div class="col-5">
+         <img src="img/logo-godrej.png" alt="">
+       </div>
+       <div class="col-5">
+        <img src="img/logo-coca-cola.png" alt="">
+      </div>
+      <div class="col-5">
+        <img src="img/logo-oppo.png" alt="">
+      </div>
+      <div class="col-5">
+        <img src="img/logo-paypal.png" alt="">
+      </div>
+      <div class="col-5">
+        <img src="img/logo-philips.png" alt="">
+      </div>
+     </div>
+   </div>
+ </div>
+ <!---------------------FOOTER----------------------->
+ <div class="footer">
+   <div class="container">
+     <div class="row">
+      <div class="footer-col-1">
+        <h3>Download App</h3>
+        <p>Download for IOS and Android mobile phone</p>
+        <div class="app-logo">
+          <img src="img/play-store.png" alt="">
+          <img src="img/app-store.png" alt="">
+        </div>
+      </div>
+      <div class="footer-col-2">
+        <img src="img/logo-white.png" alt="">
+        <p>Our goal is to provide a sustainable pleasure and benefits of fashion to many peoples</p>
+      </div>
+      <div class="footer-col-3">
+        <h3>Useful links</h3>
+        <ul>
+          <li>Coupons</li>
+          <li>Blog post</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Instagram</li>
+          <li>Twitter</li>
+          <li>Youtube</li>
+        </ul>
+      </div>
+     </div>
+     <hr>
+     <p class="copyright">Copyright 2021-Shreyash Jawalkar</p>
+   </div>
+ </div>
+ <!-------------------------JAVASCRIPT----------------------->
+ <script>
+   var menuitems = document.getElementById("menuitems");
+   menuitems.style.maxHeight = "0px";
+    function menutoggle(){
+      if(menuitems.style.maxHeight == "0px"){
+        menuitems.style.maxHeight = "200px";
+      }
+      else{
+        menuitems.style.maxHeight = "0px";
+     }
+   }
+ </script>
+</body>
+</html>
